@@ -1,0 +1,43 @@
+/* common shared styles */
+body {
+  font-family: 'lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+/* nav works */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* class (Mary) */
+.nav-title {
+  color: var(--Dark-01, #181818);
+  font-size: 45px;
+  font-weight: 800;
+}
+/* class {May(r)y} */
+.text-primary {
+  color: #fd6e0a;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--Dark-02, #474747);
+}
+/* nav button work */
+.mx {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0px;
+  color: var(--White-Color, #fff);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
+}
